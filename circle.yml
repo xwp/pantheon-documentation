@@ -25,13 +25,7 @@ test:
   override:
     # 
   post:
-  # Prepare for post test operations
-deployment:
-    # Deploy the documentation to production
-  production:
-    branch: circle
-    commands:
-    #  - ./deploy_prod.sh
+  # Prepare for post test operations 
 # Custom notifications
 notify:
   webhooks:
