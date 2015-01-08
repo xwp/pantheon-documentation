@@ -7,7 +7,7 @@ machine:
 dependencies:
   pre: 
     # Install Drush  
-    - composer --version
+    - mv composer.json $HOME/.composer/composer.json
     - composer global require drush/drush:6.2.0
     - composer global require sculpin/sculpin:2.0.x-dev 		    
     # Install Terminus.
