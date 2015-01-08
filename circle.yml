@@ -1,0 +1,28 @@
+# https://circleci.com/docs/configuration#machine
+machine:
+  php:
+    # https://circleci.com/docs/environment#php
+    version: 5.5.11 
+      
+dependencies:
+  pre: 
+    # Install Drush  
+    - composer --version
+    - composer global require drush/drush:6.2.0
+    - composer global require sculpin/sculpin:2.0.x-dev 		    
+    # Install Terminus.
+    - git clone https://github.com/pantheon-systems/terminus.git $HOME/.drush/terminus 
+    - drush cc drush
+
+  # Install additional test dependencies here (like Casper, Behat, etc).
+  override:   
+    # Build the documentation 
+    - sculpin generate
+test:
+    #
+    # This is where you run your tests, be they SimpleTest, Casper, Behat,
+    # or otherwise. Here's a SimpleTest example.  
+  override:
+    # 
+  post:
+  # Prepare for notifications
