@@ -25,4 +25,14 @@ test:
   override:
     # 
   post:
-  # Prepare for notifications
+  # Prepare for post test operations
+deployment:
+    # Deploy the documentation to production
+  production:
+    branch: circle
+    commands:
+    #  - ./deploy_prod.sh
+# Custom notifications
+notify:
+  webhooks:
+    # A list of hashes representing hooks. Only the url field is supported.
