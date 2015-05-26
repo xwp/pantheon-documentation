@@ -24,7 +24,7 @@ See [Using Pantheon.io for Better Uptime](/docs/articles/sites/domains/using-pan
 
 ## Pantheon's Legacy DNS Configuration for pantheon.io Sites
 
-These DNS records are for Pantheon-hosted sites _already using a pantheon.io development URL_. **Do not utilize our legacy DNS records for any new sites which use the pantheon.io development URL** . Please refer to the "Domains" panel on your site's Dashboard for the specific DNS records that will successfully route traffic to your site.
+These DNS records are for Pantheon-hosted sites _already using a pantheon.io development URL (ie. "dev-mysite.pantheon.io" versus "dev-mysite.getpantheon.com"_. **Do not utilize our legacy DNS records for any new sites which use the pantheon.io development URL** . Please refer to the "Domains" panel on your site's Dashboard for the specific DNS records that will successfully route traffic to your site.
 <div class="alert alert-info" role="alert">
 <dl class="records">
 	<dt>DNS CNAME record - highly available</dt>
