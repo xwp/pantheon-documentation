@@ -48,12 +48,12 @@ Set up redirects for possible URL changes as a result of going live. Have a plan
 <strong>Warning</strong>: nginx does not recognize or parse Apache's directory-level configuration files, known as .htaccess files.</div>
 
 
+
 ## Get DNS Record and Update Your DNS
 
 After you've added your domain to the Live environment, [update your domain's DNS with the appropriate DNS record](/docs/articles/sites/domains/dns-records-for-directing-your-domain-to-your-pantheon-site), which will depend on your site's configuration. Once you do this, traffic will be directed from your domain to Pantheon and your site will be fully launched.
 
 **Pantheon does not manage your domain name or DNS**. You will need to make these changes yourself. DNS changes can take up to 48 hours to propagate across the Internet. However, most updates happen in a couple hours.
-
 
 ## Frequently Asked Questions
 
