@@ -1,5 +1,5 @@
 ---
-title: Migrate Sites from Other Hosts
+title: Migrate Sites to Pantheon
 description: General instructions for preparing and migrating remotely-hosted Drupal or WordPress sites to Pantheon.
 category:
 - getting-started
@@ -129,10 +129,10 @@ terminus sites create [--product=<productid>] \
 
 In the Dashboard, you create a new site and select **Import a site** when asked to choose a Start State.
  ![Choose your start state](/source/docs/assets/images/choose-your-start-state.png)
- 
+
 Next, you'll need to determine if your imports will be via one archive, or multiple. By default, you have the option to give a single archive for your entire import.
  ![Single Archive Import](/source/docs/assets/images/single-archive-import.png)
- 
+
 Selecting the link to provide separate code, files, and database archives will give you the option to import each individually via an upload or URL field.
 
 ### Distributions
