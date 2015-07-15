@@ -9,7 +9,7 @@ keywords: drupal, multisite, domains
 Pantheon only supports one Drupal core and one database per site. We do not support database prefixes or multisite. Our workflow, backup, and deployment tools only perform as expected given the standard Pantheon setup. If you try to install a second site inside your site container, it will most likely break it.
 
 ## Best Practice Recommendations
-While we can't give specific recommendations for your sites, we can give general best practices for having two sites under one domain. This is a known Drupal problem, as it is a very common issue for which many strategies and workarounds exist. To read more about the issue, see [Multi-headed Drupal](http://www.palantir.net/blog/multi-headed-drupal).
+While we can't give specific recommendations for your sites, we can give general best practices for having two sites under one domain. This is a known CMS problem, as it is a very common issue for which many strategies and workarounds exist. To read more about the issue, see [Multi-headed Drupal](http://www.palantir.net/blog/multi-headed-drupal).
 
 ### What Works on Pantheon
 
