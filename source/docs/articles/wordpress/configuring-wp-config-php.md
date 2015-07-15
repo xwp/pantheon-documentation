@@ -59,10 +59,6 @@ You don't have to! Pantheon automatically injects database credentials into the
 ####Where can I find examples of Pantheon wp.config.php?
 You can view examples at the [pantheon-settings-examples repo](https://github.com/pantheon-systems/pantheon-settings-examples).
 
-#### Are table prefixes supported?
-
-For information about table prefixes on Pantheon, see [this](/docs/articles/sites/migrate/importing-an-existing-site/#importing-an-existing-site#table-prefixes) article.
-
 ## Troubleshooting
 #### Request to a Remote API Does Not Return Expected Response
 
