@@ -101,11 +101,12 @@ Finally, use the import tools within your Pantheon site's Dashboard to import yo
 ## Test Your Site
 
 We advocate using a behavioral testing framework to automate user acceptance testing. Please test your site on the platform. We recommend:
- - Using the Launch Check tool in the site dashboard
- - Enabling our free New Relic Add on
- - Automated user acceptance testing with Behat, Selenium, or Casper.js
+
+ - Using the Launch Check tool in the site Dashboard
+ - Enabling [New Relic](/docs/articles/sites/newrelic)
+ - [Automated user acceptance testing](/docs/guides/automated-testing-wordpress-behat) with Behat, Selenium, or Casper.js
  - Load testing using tools like [Blazemeter](/docs/guides/load-testing-with-blazemeter/)
- - Logging in and clicking around your site.
+ - Logging in and clicking around your site
 
 
 ## Go Live
