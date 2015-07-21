@@ -1,6 +1,6 @@
 ---
-title: Drupal Multisite Workaround
-description: Best practices for having two Drupal sites on one domain.
+title: Managing Subsites Under a Single Domain
+description: Best practices for having Drupal subsites on one domain.
 category:
   - developing
   - drupal
