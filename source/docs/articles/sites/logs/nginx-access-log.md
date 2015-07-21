@@ -1,5 +1,5 @@
 ---
-title: Parsing nginx Access Log with GoAccess
+title: Parsing nginx Access Logs with GoAccess
 description: Learn how to parse the nginx-access.log file with GoAccess to gather information on your visitors and referral traffic.
 keywords: log, access log, nginx access log, nginx log, nginx access
 ---
