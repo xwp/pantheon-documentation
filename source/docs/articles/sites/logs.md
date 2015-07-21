@@ -21,6 +21,7 @@ Each environment (Multidev, Dev, Test, and Live) has their own respective log fi
 You now have a local copy of the logs directory, which contains the following:
 ```nohighlight
 ├── logs
+    └──newrelic.log
     └──nginx-access.log
     └──nginx-error.log
     └──php-error.log
