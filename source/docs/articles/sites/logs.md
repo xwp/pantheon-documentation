@@ -68,3 +68,4 @@ You now have a local copy of the `mysqld-slow-query.log` file.
 - [PHP Slow Log](/docs/articles/sites/logs/php-slow-log/)
 - [PHP Errors and Exceptions](/docs/articles/sites/php-errors-and-exceptions/)
 - [Bots and Indexing](/docs/articles/sites/code/bots-and-indexing/)
+- [Parsing nginx Access Logs with GoAccess](/docs/articles/sites/logs/nginx-access-log)
