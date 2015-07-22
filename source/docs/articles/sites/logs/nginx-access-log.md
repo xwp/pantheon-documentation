@@ -3,21 +3,22 @@ title: Parsing nginx Access Logs with GoAccess
 description: Learn how to parse the nginx-access.log file with GoAccess to gather information on your visitors and referral traffic.
 keywords: log, access log, nginx access log, nginx log, nginx access
 ---
-Pantheon uses nginx webservers for optimal performance. Events and activities of the webserver are recorded into log files which can be used to identify potential issues and gather information about users.
+Pantheon uses nginx web servers for optimal performance. Events and activities of the web server are recorded in log files that can be used to identify potential issues and gather information about users.
 
-[GoAccess](http://goaccess.io/) is a free, open sourced utility that is used to create on the fly server reports by parsing the `nginx-access.log` file. Use it to quickly identify most used browsers and operating systems, or debug failed requests - all from the command line.
+[GoAccess](http://goaccess.io/) is a free, open source utility that is used to create on the fly server reports by parsing the `nginx-access.log` file. Use it to quickly identify most used browsers and operating systems, or debug failed requests—all from the command line.
 
 ## Before You Begin
 
 Be sure that you have:
 
-- [Local copy of the target site environment's `nginx-access.log` file.](/docs/articles/sites/logs)
+- [A local copy of the target site environment's `nginx-access.log` file.](/docs/articles/sites/logs)
 - [GoAccess](http://goaccess.io/) installed:
- - **Mac OS X**: Install via [homebrew](http://brew.sh/)
+ - **Mac OS X**: Install via [Homebrew](http://brew.sh/)
  - **Windows**: Use [Cygwin](http://cygwin.com/install.html)
 
 ## Edit GoAccess Configuration
-To parse the Pantheon `nginx-access.log` file with GoAccess, we have to specify the unique log formats.
+
+To parse the Pantheon `nginx-access.log` file with GoAccess, you'll need to specify the unique log formats.
 
 Add the following lines to the `goaccess.conf` file, located in either `/etc/`, `/usr/etc/` or `/usr/local/etc/` depending on your installation method:
 
@@ -27,7 +28,7 @@ date_format %d/%b/%Y
 log_format %^ %^ %^ [%d:%t]  "%r" %s %b "%R" "%u" %T "%h"
 ```
 ## Generate Report
-You can run the following command, which will parse the log file and open a dashboard in your terminal application so you may view the results:
+You can run the following command, which will parse the log file and open a dashboard in your terminal application so you can view the results:
 ```
 goaccess -f nginx-access.log
 ```
