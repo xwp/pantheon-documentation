@@ -23,7 +23,7 @@ Upgrading your site's PHP version will improve the security, performance, and su
 
 ## Resolve PHP Version Compatibility Issues
 
-We recommend working with theme, module, or plugin maintainers to resolve any issues upstream. For custom code, see the [Backward Incompatible Changes documentation](http://php.net/manual/en/migration56.incompatible.php) in the [PHP Manual](http://php.net/manual/en/appendices.php) for migrating from one PHP version to another.
+We recommend working with theme, module, or plugin maintainers to resolve any issues upstream. For custom code, see the **Backward Incompatible Changes documentation** in the [PHP Manual](http://php.net/manual/en/appendices.php) for migrating from one PHP version to another.
 
 ## See Also
 
